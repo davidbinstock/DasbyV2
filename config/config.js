@@ -2,7 +2,7 @@ require('dotenv').config()
 module.exports = {
     "development": {
         "username": process.env.DBUSER,
-        "password": process.env.PASS,
+        "password": process.env.DBPASS,
         "database": process.env.DATABASE,
         "host": "127.0.0.1",
         "port": 3306,
